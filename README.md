@@ -14,7 +14,7 @@ elements of a given object. The first five values are returned by the head () me
 
 ## Data Exploration and Visualization
 
--  ** Student Data as per the school and gender **
+-  * Student Data as per the school and gender *
 -  ** Student Pass and Fail Rate as per school ** 
 -  ** Student's Family Background affect his/her grades**
 -  ** Grade of Student as per the Father's Job **  
