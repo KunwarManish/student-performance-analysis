@@ -14,17 +14,17 @@ elements of a given object. The first five values are returned by the head () me
 
 ## Data Exploration and Visualization
 
--  * Student Data as per the school and gender *
--  ** Student Pass and Fail Rate as per school ** 
--  ** Student's Family Background affect his/her grades**
--  ** Grade of Student as per the Father's Job **  
--  ** Grade of Student as per the Mother's Job **
--  ** Parent's Education Background and Student's Pass Rate **
--  ** Family Relationship of Students and their pass rate **
--  ** Student Performance in Final as per their Study Time **
--  ** Number of Student’s Study Time affect the Final Grade **
--  ** Internet Role in a Student’s Studies **
--  ** Internet Role in a Student’s Studies **
--  ** Internet Role in a Student’s Studies **
--  ** Extracurricular activities of students as per their gender and pass rate **
+-  **Student Data as per the school and gender**
+-  **Student Pass and Fail Rate as per school** 
+-  **Student's Family Background affect his/her grades**
+-  **Grade of Student as per the Father's Job**  
+-  **Grade of Student as per the Mother's Job**
+-  **Parent's Education Background and Student's Pass Rate**
+-  **Family Relationship of Students and their pass rate**
+-  **Student Performance in Final as per their Study Time**
+-  **Number of Student’s Study Time affect the Final Grade**
+-  **Internet Role in a Student’s Studies**
+-  **Internet Role in a Student’s Studies**
+-  **Internet Role in a Student’s Studies**
+-  **Extracurricular activities of students as per their gender and pass rate**
   
