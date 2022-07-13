@@ -54,248 +54,26 @@ _Table 1: Data attributes are represented in a table._
 
 All of the processes involved in the conversion are the same. The unique () function returns an array of the input array&#39;s unique elements. A binary value of 0 or 1 was assigned to an empty dictionary. The concat () function applies a function to all the elements of a given object. The first five values are returned by the head () method.
 
-![](RackMultipart20220713-1-nrj0bf_html_f5f128ae53c82de9.jpg)
-
-_Figure 1 : Represent the columns in the first five rows of the student.csv file._
 
 ### 2.1 school, sex, address, famsize, Pstatus, schoolsup, famsup, paid, activities, nursery, higher, internet and romantic into binary: 0 or 1 (create new columns without overwriting the existing ones)
 
-#### a) school into binary: 0 or 1
-
-Converting values of school into binary and creating a new column as binaryschool which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_74cc017356f7d57f.jpg)
-
-_Figure 2: Displaying values present in school and binaryschool column._
-
-#### b) sex into binary: 0 and 1
-
-Converting values of sex into binary and creating a new column named as binarysex which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_9ff1b16e81f3b324.jpg)
-
-_Figure 3: Displaying values present in sex and binarysex column._
-
-#### c) address into binary: 0 and 1
-
-Converting values of address into binary and creating a new column named as binaryaddress which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_15017669dd9fc923.jpg)
-
-_Figure 4: Displaying values present in address and binaryaddress column._
-
-#### d) famsize into binary: 0 and 1
-
-Converting values of famsize into binary and creating a new column named as binaryfamsize which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_c64902effcda0df9.jpg)
-
-_Figure 5: Displaying values present in famsize and binaryfamsize column._
-
-#### e) Pstatus into binary: 0 and 1
-
-Converting values of Pstatus into binary and creating a new column named as Pstatus which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_3aab4b5b8246b107.jpg)
-
-_Figure 6: Displaying values present in Pstatus and binaryPstatus column._
-
-#### f)schoolsup into binary: 0 and 1
-
-Converting values of schoolsup into binary and creating a new column as binaryschoolsup which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_3b1a21adbe5db76a.jpg)
-
-_Figure 7: Displaying values present in schoolsup and binaryschool column._
-
-#### g) famsup into binary: 0 and 1
-
-Converting values of famsup into binary and creating a new column named as binaryfamsup which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_1113cf228bf665a6.jpg)
-
-_Figure 8: Displaying values present in famsup and binaryfamsup column._
-
-#### h) paid into binary: 0 and 1
-
-Converting values of paid into binary and creating a new column named as binarypaid which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_f8a93038d8771ac8.jpg)
-
-_Figure 9: Displaying values present in paid and binarypaid column._
-
-#### i) activities into binary: 0 and 1
-
-Converting values of activities into binary and creating a new column named as binaryactivities which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_8f7d3b07e25b8207.jpg)
-
-_Figure 10: Displaying values present in activities and binaryactivities column._
-
-#### j) nursery into binary: 0 and 1
-
-Converting values of nursery into binary and creating a new column named as binarynursery which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_36371b7d540e7013.jpg)
-
-_Figure 11: Displaying values present in nursey and binary nursery column._
-
-#### k) higher into binary: 0 and 1
-
-Converting values of higher into binary and creating a new column named as binaryhigher which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_b026853f8754764e.jpg)
-
-_Figure 12: Displaying values present in higher and binaryhigher column._
-
-#### l) internet into binary: 0 and 1
-
-Converting values of internet into binary and creating a new column named as binaryinternet which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_d33c8c7f1097cb7b.jpg)
-
-_Figure 13: Displaying values present in internet and binaryinternet column._
-
-#### m) romantic into binary: 0 and 1
-
-Converting values of romantic into binary and creating a new column named as binaryromatic which contains those binary values.
-
-![](RackMultipart20220713-1-nrj0bf_html_2c0e27328502fd1a.jpg)
-
-_Figure 14: Displaying values present in romantic and binaryromatic column._
-
 ### 2.2 Medu, Fedu, Mjob, reason, guardian, traveltime, studytime, famrel, freetime, gout, Dalc, Walc and health into ordinal numbers based on number of cases in the data set (create new columns without overwriting the existing ones)
-
-#### a) Medu into ordinal numbers
-
-![](RackMultipart20220713-1-nrj0bf_html_74428d44c8ef0b52.jpg)
-
-_Figure 15: Converting values of Medu into ordinal number and binaryMedu based on the obtained ordinal number._
-
-#### b) Fedu into ordinal numbers
-
-![](RackMultipart20220713-1-nrj0bf_html_ee363dbb42413bcf.jpg)
-
-_Figure 16: Converting values of Fedu into ordinal number and binaryFedu based on the obtained ordinal number._
-
-#### c) Mjob into ordinal numbers
-
-![](RackMultipart20220713-1-nrj0bf_html_757b4136d0588b27.jpg)
-
-_Figure 17: Converting values of Mjob into ordinal number and binaryMjob based on the obtained ordinal number._
-
-#### d) reason into ordinal numbers
-
-![](RackMultipart20220713-1-nrj0bf_html_375812c9545dacda.jpg)
-
-_Figure 18: Converting values of Fjob into ordinal number and binaryFjob based on the obtained ordinal number_
-
-#### e) reason into ordinal numbers
-
-![](RackMultipart20220713-1-nrj0bf_html_fe59f48b5d3a7348.jpg)
-
-_Figure 19: Converting values of reason into ordinal number and binaryreason based on the obtained ordinal number._
-
-#### f) guardian into ordinal numbers
-
-![](RackMultipart20220713-1-nrj0bf_html_78a2809b4ecb365a.jpg)
-
-_Figure 20: Converting values of guardian into ordinal number and binaryguardian based on the obtained ordinal number._
-
-#### i) famrel into ordinal numbers
-
-![](RackMultipart20220713-1-nrj0bf_html_2ef20eb61e94764e.jpg)
-
-_Figure 23: Converting values of famrel into ordinal number and binaryfamrel based on the obtained ordinal number._
-
-#### j) freetime into ordinal numbers
-
-![](RackMultipart20220713-1-nrj0bf_html_386e0ce8e54929ed.jpg)
-
-_Figure 24: Converting values of freetime into ordinal number and binaryfreetime based on the obtained ordinal number._
-
-#### k) gout into ordinal numbers
-
-![](RackMultipart20220713-1-nrj0bf_html_f6f3e37ac31699ff.jpg)
-
-_Figure 25: Converting values of gout into ordinal number and binarygout based on the obtained ordinal number._
-
-#### l) Dalc into ordinal numbers
-
-![](RackMultipart20220713-1-nrj0bf_html_80ad0d4d3f2ffa6a.jpg)
-
-_Figure 26: Converting values of Dalc into ordinal number and binaryDalc based on the obtained ordinal number._
-
-#### m) Walc into ordinal numbers
-
-![](RackMultipart20220713-1-nrj0bf_html_d2be10b4f7c881a5.jpg)
-
-_Figure 27: Converting values of Walc into ordinal number and binaryWalc based on the obtained ordinal number._
-
-#### n) health into ordinal numbers
-
-![](RackMultipart20220713-1-nrj0bf_html_59dc7a6f60e8d1e.jpg)
-
-_Figure 28: Converting values of health into ordinal number and binaryhealth based on the obtained ordinal number._
 
 ### 2.3 create a new column named age\_category whose values should be based on the values in the age column, divide the values into 3 ordinal numbers: 1-15 to 17, 2-18 to 20, 3-21 and over
 
-![](RackMultipart20220713-1-nrj0bf_html_6795e66d09998bc3.jpg)
-
-_Figure 29: Creating a new column age\_category column based on age column with three ordinal values._
-
-### 2.4 create a new column named passed (yes or no) whose values should be based on the values present in the G3 column (\&gt;=8 - yes, \&lt;8 – no)
-
-![](RackMultipart20220713-1-nrj0bf_html_b2431481103dec62.jpg)
-
-_Figure 30: Creating passed column based on G3 column with condition._
-
 ## 3. Initial Data Analysis
 
-### 3.1 Write code to show the summary statistics (sum, mean, median, standard deviation, max and min) of the variables age, absences, G1, G2 and G3.
+### 3.1 The summary statistics (sum, mean, median, standard deviation, max and min) of the variables age, absences, G1, G2 and G3.
 
-#### a) Age
+### 3.2 The correlation between the variables absences, failures, G1, G2 and G3. Present the result using a heatmap and interpret the results.
 
-![](RackMultipart20220713-1-nrj0bf_html_e331e4af96a66b0a.jpg)
-
-_Figure 31: Calculating sum, mean, median, standard deviation, max and min of variables age._
-
-####
-
-
-#### b) absences
-
-![](RackMultipart20220713-1-nrj0bf_html_56a1d944fc9c0fd2.jpg)
-
-_Figure 32: Calculating sum, mean, median, standard deviation, max and min of variables absences._
-
-#### c) G1
-
-![](RackMultipart20220713-1-nrj0bf_html_d65a76cc2a9624de.jpg)
-
-_Figure 33: Calculating sum, mean, median, standard deviation, max and min of variables G1._
-
-#### d) G2
-
-![](RackMultipart20220713-1-nrj0bf_html_800afb893c19f30.jpg)
-
-_Figure 34: Calculating sum, mean, median, standard deviation, max and min of variables G1._
-
-#### e) G3
-
-![](RackMultipart20220713-1-nrj0bf_html_b7b9825c04bbd898.jpg)
-
-_Figure 35: Calculating sum, mean, median, standard deviation, max and min of variables G3._
-
-### 3.2 Write code to calculate and show the correlation between the variables absences, failures, G1, G2 and G3. Present the result using a heatmap and interpret the results.
-
-![](RackMultipart20220713-1-nrj0bf_html_3c3cc09c103eaa69.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655041-86abab26-d784-4b76-b341-e29658de6282.png)
 
 _Figure 36: corr () function being used to compute correlation of columns._
 
 The above screenshot demonstrates the implementation of corr function in which the correlation of absences, failures, G1, G2 and G3 is presented.
 
-![](RackMultipart20220713-1-nrj0bf_html_1a736d1d5fc54dd9.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655106-f3f810db-69ce-4860-a7b1-3d78893184e7.png)
 
 _Figure 37: Heatmap presenting the correlation between variables._
 
@@ -303,11 +81,11 @@ The color codes used in the heatmap above show the strength of each variable, na
 
 ## 4. Data Exploration and Visualization
 
-### 4.1 Write code to show histogram plots and boxplots to visualize the distribution of the variables age, absences and G3. Interpret the results and comment about the distribution of each variable.
+### 4.1 Histogram plots and boxplots to visualize the distribution of the variables age, absences and G3. Interpret the results and comment about the distribution of each variable.
 
 **a) Histogram: Age**
 
-![](RackMultipart20220713-1-nrj0bf_html_6c6cf6dbb9aeb4fa.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655214-8cc7e698-850c-4771-858a-b468bf7b1ef7.png)
 
 _Figure 38: Histogram plots to represent the number of students according to their age._
 
@@ -315,7 +93,7 @@ According to the above histogram plots, the number of students between the ages 
 
 #### b) Histogram: Absences
 
-![](RackMultipart20220713-1-nrj0bf_html_fe6a03e12d7e36c0.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655248-d05747ad-b99d-4e29-a5e4-024c7bd58251.png)
 
 _Figure 39: Histogram plots to represent the number of students according to their absence._
 
@@ -325,7 +103,7 @@ According to the above histogram plots, the number of absences of students rangi
 
 #### c) Histogram: G3
 
-![](RackMultipart20220713-1-nrj0bf_html_a00c553ad07b2aa5.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655283-5d786a66-5af3-4154-b09b-b593af78e983.png)
 
 _Figure 40: Histogram plots to represent the number of students according to G3_
 
@@ -333,7 +111,7 @@ According to the above histogram plots, the number of students with first period
 
 #### e) Box Plots: Age
 
-![](RackMultipart20220713-1-nrj0bf_html_7e73fb61a2af2c57.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655309-53083c6a-bdb1-47d8-874a-ecc1876439a9.png)
 
 _Figure 41: Box plots to represent the number of students according to their age._
 
@@ -341,7 +119,7 @@ According to the above box plots, the students age 17 is median, age 16 is lower
 
 #### f) Box Plots: Absences
 
-![](RackMultipart20220713-1-nrj0bf_html_b41dc689d1709d50.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655337-a4514416-b3e7-4410-89a5-813ec376acbb.png)
 
 _Figure 42: Box plots to represent the number of students according to their absence._
 
@@ -349,23 +127,23 @@ According to the box plots above, the number of absences of students ranging fro
 
 #### g) Box Plots: G3
 
-![](RackMultipart20220713-1-nrj0bf_html_701408e1a537bcd0.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655372-fa765beb-b8ac-4140-a300-6dd61a3f9e56.png)
 
 _Figure 43: Box plots to represent the number of students according to G3_
 
 According to the above box plots, the grade ranges from 10 to 12.5 is median, grade range from 7.5 to 10 is lower quartile, grade from 12.5 to 15 is upper quartile, while the number of grade 0 is min and 20 is max.
 
-### 4.2 Write code to show a bar graph of the total number of students who passed the final term grouped according to the school that they belong to. Use proper labels in the graph and interpret the results.
+### 4.2 Bar graph of the total number of students who passed the final term grouped according to the school that they belong to. Use proper labels in the graph and interpret the results.
 
-![](RackMultipart20220713-1-nrj0bf_html_1cc04e0366fd5c1c.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655389-274bfebe-ceec-47bc-a193-242dc276bbf5.png)
 
 _Figure 44: Bar graph of total number of passed students in final term grouped according to school._
 
 The bar graph represents that the rate of total number of passed students is higher in GP, i.e., Gabriel Pereira school, than in MS, i.e., Mousinho da Silveira school.
 
-### 4.3 Write code to show a bar graph of the total number students who failed the final exam grouped according to their weekly study time. Use proper labels in the graph and interpret the results.
+### 4.3 Bar graph of the total number students who failed the final exam grouped according to their weekly study time. Use proper labels in the graph and interpret the results.
 
-![](RackMultipart20220713-1-nrj0bf_html_3accff3aa0d66a73.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655487-de829f76-fcf8-4990-92ed-bcf93cadd757.png)
 
 _Figure 45: Bar graph of total number of failed students in final term grouped according to their weekly study time._
 
@@ -375,7 +153,7 @@ According to the bar graphs, students who study 2 to 5 hours per week have a hig
 
 #### Student Data as per the school
 
-![](RackMultipart20220713-1-nrj0bf_html_9ec7b77505b732c9.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655516-13480273-e932-417b-961c-802167040e35.png)
 
 _Figure 46: Pie-Chart representing number of students according to School._
 
@@ -383,7 +161,7 @@ According to the pie chart above, 88.35 percent of students attend GP i.e., Scho
 
 #### Grade as Per the Gender
 
-![](RackMultipart20220713-1-nrj0bf_html_baad4069050edf12.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655530-f55767e4-94a1-435c-b384-7279ba3136b6.png)
 
 _Figure 47: Pie-Chart representing total number of male and female_
 
@@ -391,13 +169,13 @@ In the pie chart screenshot above, &#39;F&#39; stands for Female and &#39;M&#39;
 
 #### Student Pass and Fail Rate as Per School
 
-![](RackMultipart20220713-1-nrj0bf_html_dd71e956f83b840b.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655594-1ca00335-52ed-4700-b1f3-7207b96a809c.png)
 
 _Figure 48: Extracting number of pass and fail students in a school._
 
 The total number of passes for each student is calculated and saved in the dictionary dictPassedSchool, while the total number of failed students is computed and stored in the dictionary dictFailSchool, as seen in the code screenshot above. GP is denoted by 0 and MS is denoted by 1.
 
-![](RackMultipart20220713-1-nrj0bf_html_184ea978660e8157.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655620-7dbadad0-babc-4459-97a9-5adcbaeb6b5b.png)
 
 _Figure 49: Bar graph of total number of pass and fail rate as per the school._
 
@@ -407,7 +185,7 @@ The bar graph above illustrates that the pass rate and failure rate of students 
 
 #### Grade of Student as per the Father&#39;s job
 
-![](RackMultipart20220713-1-nrj0bf_html_aee0631c4e98996a.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655654-1f9f1f8f-a48d-41e6-a840-f57bfc41ab89.png)
 
 _Figure 50: Bar Graph of student pass rate as per father&#39;s occupation._
 
@@ -415,7 +193,7 @@ Students who passed their exams are shown in dark green, while those who failed 
 
 #### Grade of Student as per the Mother&#39;s Job
 
-![](RackMultipart20220713-1-nrj0bf_html_b5e7eb468673d1d3.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655690-cf649f53-41e4-4f55-a0a3-9815d2030a28.png)
 
 _Figure 51: Bar Graph of student pass rate as per Mother&#39;s occupation_
 
@@ -423,7 +201,7 @@ The students who passed their exam are shown in light green, while those who fai
 
 #### Parent&#39;s Education Background &amp; Student&#39;s Pass Rate
 
-![](RackMultipart20220713-1-nrj0bf_html_be612e0c18ad446d.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655716-72caa36e-04f7-4da5-9185-c7d9de4c20e6.png)
 
 _Figure 52: Horizontal Bar graph indicates parent&#39;s education background with student&#39;s pass rate._
 
@@ -431,7 +209,7 @@ The pass rate according to final grade is represented by orange in the bar graph
 
 **Family Relationship of Students and their pass rate.**
 
-![](RackMultipart20220713-1-nrj0bf_html_b3daef7ef32b4644.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655740-a4df22b2-c33a-4d9d-a75f-54786521ccdb.png)
 
 _Figure 53: Bar graph of student&#39;s family relationship and their pass rate._
 
@@ -439,7 +217,7 @@ The orange color bar in the bar graph above represents students who did not pass
 
 #### Student Performance in Final as per their Study Time
 
-![](RackMultipart20220713-1-nrj0bf_html_cb1116a9b9e75474.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655768-9ffafeba-d4d4-464c-9023-9318427c9592.png)
 
 _Figure 54: Bar graph of final result of student as per the study time._
 
@@ -447,7 +225,7 @@ The vertical bar graph above displays students&#39; final grades with pass and f
 
 #### Number of Student&#39;s Study Time affect the Final Grade
 
-![](RackMultipart20220713-1-nrj0bf_html_613da82760adb5f0.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655796-c816d7f8-be02-4371-bd39-d4752b6b9a48.png)
 
 _Figure 55: Bar graph of the study time and number of pass rate students._
 
@@ -455,7 +233,7 @@ The dark green color in the screenshot above represents the pass student rate, w
 
 **Internet Role in a Student&#39;s Studies.**
 
-![](RackMultipart20220713-1-nrj0bf_html_2aebf739ca7cf9f9.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655830-9f35009a-3cbb-44c4-a16b-5bc8f5c3bfb6.png)
 
 _Figure 56: Box plot of internet usage of student for the final exam._
 
@@ -463,7 +241,7 @@ The blue color box in the above box plot diagram indicates students who do not h
 
 **Attendance as per Age with their Pass Rate.**
 
-![](RackMultipart20220713-1-nrj0bf_html_f57f24c7f7b6c91a.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655854-1611d4e6-04ec-46f7-acd8-49c7bcf2a1a5.png)
 
 _Figure 57: Violin plot of attendance as per age with their pass rate._
 
@@ -471,7 +249,7 @@ The orange color in the above Violin plot represents the rate of pass students w
 
 #### Alcohol Consumption Weekly and Daily with the Pass Rate
 
-![](RackMultipart20220713-1-nrj0bf_html_fccc0d7180810617.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655881-ec444257-e29a-4666-8352-732555cbbac1.png)
 
 _Figure 58: Bar graph of Alcohol consumption daily and weekly of students with the pass rate_
 
@@ -479,7 +257,7 @@ The green color bar in the above bar graph represents students who have not pass
 
 #### Extracurricular activities of students as per their gender and pass rate
 
-![](RackMultipart20220713-1-nrj0bf_html_756379a61fa6ce7f.jpg)
+![image](https://user-images.githubusercontent.com/31987649/178655891-302e32de-9d82-48a0-99ca-9bc99fca41f7.png)
 
 _Figure 59: Swarm plot of students participate in extracurricular activities categorized according to their gender with pass rate._
 
